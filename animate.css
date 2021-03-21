@@ -1,0 +1,58 @@
+.top-bottom{
+    position:relative;
+    animation: top-bottom .8s cubic-bezier(0, 0.32, 0.58, 1) forwards;
+    transition:0.8s;
+}
+@keyframes top-bottom{
+    0%{
+        top: -100px;
+        opacity: 0;
+    }
+    100%{
+        top: 0px;
+        opacity: 1;
+    }
+}.bottom-top{
+    position:relative;
+    animation: bottom-top .8s cubic-bezier(0, 0.32, 0.58, 1) forwards;
+    transition:0.8s;
+}
+@keyframes bottom-top{
+    0%{
+        bottom: -100px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0px;
+        opacity: 1;
+    }
+}.left-right{
+    position:relative;
+    animation: left-right .8s cubic-bezier(0, 0.32, 0.58, 1) forwards;
+    transition:0.8s;
+}
+@keyframes left-right{
+    0%{
+        left: -100px;
+        opacity: 0;
+    }
+    100%{
+        left: 0px;
+        opacity: 1;
+    }
+}
+.right-left{
+    position:relative;
+    animation: right-left .8s cubic-bezier(0, 0.32, 0.58, 1) forwards;
+    transition:0.8s;
+}
+@keyframes right-left{
+    0%{
+        right: -100px;
+        opacity: 0;
+    }
+    100%{
+        right: 0px;
+        opacity: 1;
+    }
+}
